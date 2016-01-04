@@ -74,7 +74,7 @@ Klassifizierungsdaten (e-auction_class.txt)
 Entscheidung treffen, ob Auktionsmerkmale als Hoch- oder Niedrigpreis einzustufen
 Ziel ist Punktzahlmaximierung.
 
-..* Performance:
+  * Performance:
 Gesamt-Klassifikationskosten/gewinne bestimmt
 
 2. Segmentierungsanalyse
@@ -82,10 +82,10 @@ Gesamt-Klassifikationskosten/gewinne bestimmt
  im Vergleich zu den anderen Clustern jedoch möglichst heterogen
 Interpretieren der Cluster & ableiten von Implikationen für das Marketing
 
-..* Performance:
+  * Performance:
 Silhouetten-Koeffizienten
 
-..* Randbedingungen:
+  * Randbedingungen:
 mindestens 15 Variablen für Segmentierung zur Verfügung 
 mindestens 3 Cluster gebildet
   
@@ -93,7 +93,7 @@ mindestens 3 Cluster gebildet
 Angeklickter Servicedienste auf der neuen Website (website_train.txt)
 Ableiten relevanter Regeln für das Cross-Selling des Musik-Streaming-Services 
  
-..* Performance: 
+  * Performance: 
 Erläuterung der Vorgehensweise und Lösung
  
 ### Bewertung
