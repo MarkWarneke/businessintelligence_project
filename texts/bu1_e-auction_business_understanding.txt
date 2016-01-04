@@ -1,0 +1,18 @@
+# Business Understanding: 
+
+## Unternehmen: 
+Elektronik-Handelsunternehmen mit Auktionsplattform 
+
+## Geschäftsumfeld: 
+Absatzkanal Auktionsplattform mit sehr unterschiedliche Verkaufserlösen
+
+## Geschäftsziel: 
+Erlösmaximierung (Optimierungsmaßnaheme)
+Neu eingestellte Aktion Vorhersagen ob Verkaufserlöse des Artikels über dem durchschnittlichen Verkaufserlös der Produktkategorie liegt
+
+## Data Mining-Ziele: 
+* Beschreibung der Trainingsdaten (e-auction_train.txt) 
+* Klassifikationsanalyse
+  * Entscheidung treffen, ob Auktionsmerkmale als Hoch- oder Niedrigpreis einzustufen
+  * Ziel ist Punktzahlmaximierung.
+* Klassifizierungsdaten (e-auction_class.txt) 

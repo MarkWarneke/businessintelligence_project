@@ -1,0 +1,12 @@
+﻿# Datenquelle: 
+* Grundlage: Online Auktionen Daten
+* aus Kategorie: Audio&Hi-Fi:MP3-Player:Apple iPod
+
+(e-auction_train.txt) 
+– 25 Variablen, davon 
+– 15 nominal skaliert (zzgl. Zielvariable)
+– 5 intervall skaliert (zzgl. Datensatzid)
+- 4 metrisch skaliert
+– 8.000 Datensätze 
+
+siehe du2_e_auction_variables_detail.txt
