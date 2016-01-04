@@ -4,7 +4,9 @@ Ablage der Daten inkls pmmls.
 
 
 ## tree view:
-C:.
+```
+C:
+.
 |   CRISP-DM.md
 |   e_auction.cpj
 |   README.md
@@ -30,23 +32,24 @@ C:.
         e_auction_variables.txt
         e_auction_variables_detail.csv
         e_auction_variables_detail.txt
-		
+```
+
 ## folders
 
-.: 				README sowie Projektsetup
-data: 			alle Daten / flatfiles für die Datenbasis - Tabstopps als Trennung
-others: 		Nicht direkt Relevanten Informationen (Zusatzinformationen)
-streams: 		Erstellte Streams für die Erarbeitung der Prüfungsleistung
-texts: 			Erklärende Inhalte, sowie Texte zur Beschreibung und Verständigung
-presentations:	Folien für die Ababe
-pmmls: 			Export der Streams
+* .: README sowie Projektsetup
+* data: alle Daten / flatfiles für die Datenbasis - Tabstopps als Trennung
+* others: Nicht direkt Relevanten Informationen (Zusatzinformationen)
+* streams: Erstellte Streams für die Erarbeitung der Prüfungsleistung
+* texts: Erklärende Inhalte, sowie Texte zur Beschreibung und Verständigung
+* presentations: Folien für die Abgabe
+* pmmls: Export der Streams
  
 		
 ## Todo
 
 1. understanding
-..* vollständigkeit der Daten
-..* Außreiser analyse
-..* Diagramme analyse
+  * vollständigkeit der Daten
+  * Außreiser analyse
+  * Diagramme analyse
 
 2. preperation
