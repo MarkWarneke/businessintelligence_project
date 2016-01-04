@@ -1,0 +1,24 @@
+auct_id	
+item_leaf_category_name	
+listing_title	
+listing_subtitle	
+listing_start_date	
+listing_end_date	
+listing_durtn_days	
+listing_type_code	
+feedback_score_at_listing_time	
+start_price	buy_it_now_price	
+buy_it_now_listed_flag	
+bold_fee_flag	
+featured_fee_flag	
+category_featured_fee_flag	
+gallery_fee_flag	
+gallery_featured_fee_flag	
+ipix_featured_fee_flag	
+reserve_fee_flag	
+highlight_fee_flag	
+schedule_fee_flag	
+border_fee_flag	
+qty_available_per_listing	
+gms	category_avg_gms	
+gms_greater_avg

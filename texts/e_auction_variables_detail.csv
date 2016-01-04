@@ -1,0 +1,31 @@
+Datenfeld; Beschreibung [Auspr„gungen] ;Datentyp;Ziel;Skalierung;Žnderung;Bemerkung;Validierung
+auct_id;ID Nummer der Auktion;Integer;0;-;;;
+item_leaf_category_name ;Produktkategorie;String;0;nominal;aufteilung;;
+listing_title  ;Titel der Auktion;String;0;nominal;dichotom;;
+listing_subtitle  ;Untertitel der Auktion   ;String;0;nominal;dichotom;;
+listing_start_date;Startzeitpunkt der Auktion ;Date (MM/TT/JJJJ) ;0;datum;;;
+listing_end_date  ;Endzeitpunkt der Auktion ;Date (MM/TT/JJJJ) ;0;datum;;;Start Date > End Date
+listing_durtn_days  ;Dauer der Auktion   ;Integer;0;ordinal;;;Dauer gesetzt ?
+listing_type_code  ;Typ der Auktion [normale Auktion, Multiauktion, ?) ;Integer;0;nominal;dichotom;;
+feedback_score_at_listing_time ;Feedback-Rating des Verk„ufers bei Listung der Auktion;Integer;0;ordinal;;;
+start_price  ;Startpreis (in EUR)   ;Decimal;0;metrisch;;;gesetzt?
+buy_it_now_price  ;Sofortkauf-Preis (in EUR, bei Sofortkauf-Option)   ;Decimal;0;metrisch;;;
+buy_it_now_listed_flag  ;Auktionslistung mit Sofortkauf-Option   ;Boolean;0;nominal;;;Abgleich buy_it_now_flag = buy_it_now_price
+bold_fee_flag  ;Auktionslistung mit Fettschrift   ;Boolean;0;nominal;;;
+featured_fee_flag  ;Auktionslistung als Homepage-Top-Angebot   ;Boolean;0;nominal;;;
+category_featured_fee_flag ;Auktionslistung als Kategorie-Top-Angebot ;Boolean;0;nominal;;;
+gallery_fee_flag  ;Auktionslistung mit Galerie-Bild   ;Boolean;0;nominal;;;
+gallery_featured_fee_flag ;Auktionslistung mit Galerie (nur in Galerie-Ansicht) ;Boolean;0;nominal;;;
+ipix_featured_fee_flag  ;Auktionslistung mit ipix (Additional, xxl, pic.show, pack)   ;Boolean;0;nominal;;;
+reserve_fee_flag  ;Auktionslistung mit Reserve-Preis   ;Boolean;0;nominal;;;
+highlight_fee_flag  ;Auktionslistung mit Hintergrundfarbe (in Listenansicht)   ;Boolean;0;nominal;;;
+schedule_fee_flag  ;Auktionslistung mit Festlegung des Startzeitpunktes   ;Boolean;0;nominal;;;
+border_fee_flag  ;Auktionslistung mit Rahmen   ;Boolean;0;nominal;;;
+qty_available_per_listing  ;Menge der angebotenen Artikel bei Multiauktionen   ;Integer;0;metrisch;dichotom multiauktion;;ist multiaktion?
+gms  ;Erzielter Verkaufserl”s (in EUR)   ;Decimal;0;metrisch;auf 0 bis 1;;
+category_avg_gms ;Durchschnittlicher Verkaufserl”s (in EUR) der Produktkategorie (item_leaf_category_name) ;Decimal;0;metrisch;auf 0 bis 1;;Validierung gegen gleich Kategorie
+gms_greater_avg;0 wenn gms <= category_avg_gms  1 wenn gms > category_avg_gms ;Boolean;1;;;;
+;;;;;;;
+;;;;;;;
+;;;;;;;
+ ;;;;;;;

@@ -1,0 +1,80 @@
+auct_id		Integer
+ID Nummer der Auktion
+
+item_leaf_category_name		String
+Produktkategorie
+
+listing_title		String
+Titel der Auktion
+   
+listing_subtitle		String
+Untertitel der Auktion   
+
+listing_start_date		Date (MM/TT/JJJJ) 
+Startzeitpunkt der Auktion 
+
+listing_end_date  	Date (MM/TT/JJJJ) 
+Endzeitpunkt der Auktion 
+
+listing_durtn_days  	Integer
+Dauer der Auktion   
+
+listing_type_code  	Integer
+Typ der Auktion [normale Auktion, Multiauktion, …) 
+  
+feedback_score_at_listing_time 	Integer
+Feedback-Rating des Verkäufers bei Listung der Auktion
+   
+start_price  	Decimal
+Startpreis (in EUR)   
+
+buy_it_now_price  	Decimal
+Sofortkauf-Preis (in EUR, bei Sofortkauf-Option)   
+
+buy_it_now_listed_flag  	Boolean
+Auktionslistung mit Sofortkauf-Option   
+
+bold_fee_flag  	Boolean
+Auktionslistung mit Fettschrift   
+
+featured_fee_flag  	Boolean
+Auktionslistung als Homepage-Top-Angebot   
+
+category_featured_fee_flag 	Boolean
+Auktionslistung als Kategorie-Top-Angebot 
+  
+gallery_fee_flag  	Boolean
+Auktionslistung mit Galerie-Bild   
+
+gallery_featured_fee_flag 	Boolean
+Auktionslistung mit Galerie (nur in Galerie-Ansicht) 
+  
+ipix_featured_fee_flag  	Boolean
+Auktionslistung mit ipix (Additional, xxl, pic.show, pack)   
+
+reserve_fee_flag  	Boolean
+Auktionslistung mit Reserve-Preis   
+
+highlight_fee_flag  	Boolean
+Auktionslistung mit Hintergrundfarbe (in Listenansicht)   
+
+schedule_fee_flag  	Boolean
+Auktionslistung mit Festlegung des Startzeitpunktes   
+
+border_fee_flag  	Boolean
+Auktionslistung mit Rahmen   
+
+qty_available_per_listing  	Integer
+Menge der angebotenen Artikel bei Multiauktionen   
+
+gms  	Decimal
+Erzielter Verkaufserlös (in EUR)   
+
+category_avg_gms 	Decimal
+Durchschnittlicher Verkaufserlös (in EUR) der Produktkategorie (item_leaf_category_name) 
+
+gms_greater_avg		Boolean
+(Zielvariable) 
+0 wenn gms <= category_avg_gms 
+1 wenn gms > category_avg_gms 
+ 
