@@ -51,5 +51,9 @@ C:
   * vollständigkeit der Daten
   * Außreiser analyse
   * Diagramme analyse
+  
+1. Was fällt bezüglich der Verteilung dieser Variable auf? 
+2. Was könnte der Grund für diese Anomalität sein? 
+3. Was könnte gemacht werden, um diese Situation zu berichtigen? 
 
 2. preperation
