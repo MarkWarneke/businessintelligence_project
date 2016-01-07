@@ -1,0 +1,31 @@
+zusammenführung dichotome werte 
+
+
+-neu  (neuwertig,neugerät, neuer)
+-ovp  (originalverpackt,verschweißt)
+-schwarz (black)
+-silber (silver)
+-weiss (white)
+-garantie (geährleistung,restgarantie)
+-video ()
+-blau (blue)
+-photo (foto)
+-top (evtl super, gut,topzustand )
+-rechnung (
+- pink 
+- grün (green)
+-farbdisplay ()
+-original (org)
+-verschweißt(orginalverschweißt, neuverschweißt, eingeschweißt)-> wie neu ?
+-dock (evtl zubehör)
+-alt 
+-songs (musik, lieder) zuviel aufwand
+-verpackt(originalverpackt)
+-guter (gut )
+-tasche (ledertasche )
+
+4
+
+
+
+
