@@ -1,7 +1,7 @@
 Datenfeld; Beschreibung [Auspr„gungen] ;Datentyp;Ziel;Skalierung;nderung;Bemerkung;Validierung
 auct_id;ID Nummer der Auktion;Integer;0;-;;;
 item_leaf_category_name ;Produktkategorie;String;0;nominal;aufteilung, in kategorie ab : und nach farbe auch mit :;;
-listing_title  ;Titel der Auktion;String;0;nominal;dichotom;;
+listing_title  ;Titel der Auktion;String;0;nominal;dichotom;auffälligkeiten durchsuchen nach defekt,rechnung,zubehör, verpackt, ovp, original, garantie, gebraucht, neu(neuware) , hülle, tasche, adapter;
 listing_subtitle  ;Untertitel der Auktion   ;String;0;nominal;dichotom, aufteilung in NEU,GEBRAUCHT;meist wenn subtitle gefüllt, dann beschreibung des gegenstands da nicht mehr neu bzw. ovp;
 listing_start_date;Startzeitpunkt der Auktion ;Date (MM/TT/JJJJ) ;0;datum;;Evtl Gruppierung auf Monate,Quartale, Weihnachten, Ostern um peaks zu entdecken;
 listing_end_date  ;Endzeitpunkt der Auktion ;Date (MM/TT/JJJJ) ;0;datum;Es gibt Artikel mit offenen Ende, dichotomisieren;;Start Date > End Date
