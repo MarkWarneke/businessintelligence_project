@@ -1,0 +1,48 @@
+Feedback Cosfeld:
+
+Data PreProcessing erstellt Variablen
+
+Modell auf KLassifikationsdatensatz anwenden und gucken ob es passt
+
+Spieldatei ist genauso wie Class Datei aufgebaut. 
+
+
+Buy it now price oft = 0 -> deshalb ist es ein missing value aber nicht so behandeln einfach 0 stehen lassen
+
+0 einfach stehen lassen !
+
+Knoten für unbedeutsam weglassen
+
+möglichst geringe streuuung zwischen den stetigen variablen 
+
+z transformierten werten übernehmen
+
+aufteilung in klassen, nicht zwingend über funktion 
+
+
+Zusammenführung von Weiss und White kann man zusammenführen wenn es das modell weiter nach vorne bringt 
+
+Kategorieaufsplittung in eine Spalte mit 1,2,1 für ipod, 2gb, blau
+
+
+chris dm als dokumentationsvorlage
+
+
+
+folien: 
+
+wichtigers punkte data preprocessing
+
+guter wert für klassifkation-> wenn über 90% overfitting wenn unter 60% dann gucken das es noch besser wird
+
+segmentierung - in grünen bereich rein zu kommmen schwierig 
+-gelber bereich ist ok 
+
+Segmentierung reagiert genauso sensibel auf flags, 
+
+
+Segmenteriung auf stetigen variablen stärker
+->keine Binds anlegen.
+
+
+Klassifikation nicht auf stetigen variabeln verzichten
