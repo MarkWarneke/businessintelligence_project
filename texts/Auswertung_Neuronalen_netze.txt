@@ -1,0 +1,20 @@
+95,97
+
+
+
+qty_ größer > 1 -> rauscheißen
+
+
+buy_dif_Log10
+feedback_dif_Log10
+qty_dif_Log10
+
+
+
+log10 bei werten mit minus nicht anwenden im supertransform knoten
+
+22 (9 x 5) ->71.08% ( 9 x 6 und 9 x 4 probieren, sowie bagging boosting)
+11 (6 x 5) ->70.9% (oben unten kacke )
+7 ( 4 x 6 ) -> 71.49% (4 x 7 und 4 x 5, sowie bagging boosting)
+bagging ->74.98%
+2 -> 73.5%
